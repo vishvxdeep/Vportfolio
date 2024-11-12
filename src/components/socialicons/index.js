@@ -20,11 +20,7 @@ const ICON_MAPPING = {
   github: FaGithub,
   instagram: FaInstagram,
   linkedin: FaLinkedin,
-  snapchat: FaSnapchatGhost,
-  tiktok: FaTiktok,
-  twitter: FaTwitter,
-  twitch: FaTwitch,
-  youtube: FaYoutube
+  
 };
 
 export const Socialicons = (params) => {

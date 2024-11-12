@@ -1,144 +1,95 @@
-const logotext = "JOHN";
+const logotext = "VISHVADEEP";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Vishvadeep Kamble",
+    description: "I’m Vishvadeep Kamble Aspiring Software Developer",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Vishvadeep Kamble",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "Python is my preferred language",
+        third: "Data Science Enthusiatist",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Creative and Driven, I'm all about crafting impactful solutions and bringing fresh ideas to life. With hands-on skills in Python, Machine Learning, Java, I tackle every project with precision and passion, aiming to make a real difference in the technological world! ",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about my self",
+    aboutme: "Passionate Computer Science Engineer with expertise in Python, Java, and Machine Learning. Skilled in project management and data analysis, I create impactful solutions like an anti-sleep driving system and Spotify data analysis tool. Known for being a quick learner and a team player, I thrive on tackling complex problems and turning data into insights.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Python Developer",
+        where: "ITnium Technologies",
+        date: "12/2023-01/2024",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+   ,
+    ,
 ];
 
 const skills = [{
         name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Java",
+        value: 70,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "HTML",
+        value: 80,
+    },
+    {
+        name: "CSS",
+        value: 80,
+    },
+    {
+        name: "SQL",
+        value: 70,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Python Programming",
+        description: "Certificate by ITnium Technologies",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Java Programming",
+        description: "Certificate by Apttech Solutions.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Data Analytics Essentials",
+        description: "Certificate by CISCO Networking Academy",
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+const dataportfolio = [
+ 
+    {
+        img: "https://cdn.shopify.com/s/files/1/0575/8363/2569/files/Petpal_Logo_1200x1200.jpg?v=1639774964",
+        description: "Developed an Android app for pet care, offering expert advice and user-shared content on pet care and nutrition. Built with XML, Java, and Firebase to manage and display dynamic user input.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://thumbs.dreamstime.com/b/shield-warranty-icon-outline-vector-certificate-card-guarantee-security-268481005.jpg",
+        description: "Developed an Android app that issues digital warranty cards to prevent lost physical ones. Designed a user-friendly form in Android Studio using XML, Java, and Firebase for data storage",
         link: "#",
+        
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://static.vecteezy.com/system/resources/previews/015/724/440/original/scan-face-id-on-smartphone-silhouette-icon-facial-recognition-glyph-pictogram-biometric-identification-technology-symbol-verification-sign-isolated-illustration-vector.jpg",
+        description: "Developed a Python-based facial recognition system capable of detecting distinct facial features, including eyes, ears, and nose. Utilized computer vision libraries like OpenCV to enable accurate feature extraction and real-time facial part identification.",
         link: "#",
     },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+
+  
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "vishvadeepkamble20@gmail.com",
+    YOUR_FONE: "8767642964",
+    description: "Gajraj Colony, Shamraonagar, Sangli 416-416. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +98,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/vishvxdeep",
+    Instagram: "https://instagram.com/vishvxdeep",
+    linkedin: "https://linkedin.com/in/vishvadeepkamble07",
+    
 };
 export {
     meta,

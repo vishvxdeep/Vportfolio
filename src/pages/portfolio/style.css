@@ -23,6 +23,8 @@
 
 .po_item img {
     max-width: 100%;
+    display: flex;
+    
 }
 
 .po_item .content {
